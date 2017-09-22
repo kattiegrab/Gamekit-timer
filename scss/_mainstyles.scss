@@ -6,9 +6,12 @@ body {
 		margin-top: 150px;
 		margin-right: 100px;
 		margin-left: 100px;
-		background-color: #1a212f;
-		border-radius: 5px;
-
+		background-image: radial-gradient(#31425b, #202c40, #182131);
+		background-image: -webkit-radial-gradient(#31425b, #202c40, #182131); /* Safari 5.1 to 6.0 */
+		background-image: -o-radial-gradient(#31425b, #202c40, #182131); /* For Opera 11.6 to 12.0 */
+		background-image: -moz-radial-gradient(#31425b, #202c40, #182131); /* For Firefox 3.6 to 15 */ 
+		border-radius: 15px;
+		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2), inset 0 0 1px rgba(255, 255, 255, 0.5);
 		.info-container {
 			display: flex;
 			.picture {
@@ -20,7 +23,7 @@ body {
 				h3 {
 					color: #cdcdcd;
 					margin-top: 60px;
-					margin-left: -170px;
+					margin-left: 50px;
 				}
 			}
 		}
