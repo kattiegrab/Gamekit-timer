@@ -1,0 +1,40 @@
+body {
+	background-color: #151c27;
+    font-family: 'Varela Round', sans-serif;
+	.clock-container {
+		height: 140px;
+		margin-top: 150px;
+		margin-right: 100px;
+		margin-left: 100px;
+		background-color: #1a212f;
+		border-radius: 5px;
+
+		.info-container {
+			display: flex;
+			.picture {
+				img {
+					height: 140px;
+				}
+			}
+			.text {
+				h3 {
+					color: #cdcdcd;
+					margin-top: 60px;
+					margin-left: -170px;
+				}
+			}
+		}
+		.timer-container {
+			color: #cdcdcd;
+			font-size: 18px;
+			display: flex;
+			justify-content: flex-end;
+			margin-left: 50px;
+			.time-wrapper {
+				width: 100px;
+				margin-top: 40px;
+				margin-right: 50px;
+			}
+		}
+	}
+}
